@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaManiaAdmin">
         <activity
+            android:name=".BranchesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPizzaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
